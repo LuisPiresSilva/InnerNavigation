@@ -1,4 +1,4 @@
-package inner.navigation.library
+package inner.navigation
 
 import androidx.fragment.app.Fragment
 

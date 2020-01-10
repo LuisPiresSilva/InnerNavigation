@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home1"
+        android:title="home 1" />
+
+    <item
+        android:id="@+id/navigation_home2"
+        android:title="home 2" />
+
+    <item
+        android:id="@+id/navigation_home3"
+        android:title="home 3" />
+
+</menu>

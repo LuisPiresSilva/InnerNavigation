@@ -1,4 +1,4 @@
-package inner.navigation.library
+package inner.navigation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,11 +12,13 @@ import androidx.lifecycle.ViewModelProvider
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector
 import dagger.android.support.AndroidSupportInjection
+import inner.navigation.library.R
 import inner.navigation.library.databinding.FragmentNavigationalBinding
 import javax.inject.Inject
 
 
-class NavigationalFragment : Fragment(), HasAndroidInjector, INavigationalFragment {
+class NavigationalFragment : Fragment(), HasAndroidInjector,
+    INavigationalFragment {
 
     companion object {
         const val KEY_TAG = "KEY_TAG"
@@ -52,7 +54,8 @@ class NavigationalFragment : Fragment(), HasAndroidInjector, INavigationalFragme
 
 
     @LayoutRes
-    fun layoutToInflate(): Int = R.layout.fragment_navigational
+    fun layoutToInflate(): Int =
+        R.layout.fragment_navigational
 
     private val dataBinding: FragmentNavigationalBinding by lazy {
         DataBindingUtil.inflate<FragmentNavigationalBinding>(LayoutInflater.from(context), layoutToInflate(), null, false)

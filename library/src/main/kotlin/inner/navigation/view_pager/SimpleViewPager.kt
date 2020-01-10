@@ -1,4 +1,4 @@
-package inner.navigation.library.view_pager
+package inner.navigation.view_pager
 
 import android.content.Context
 import android.util.AttributeSet

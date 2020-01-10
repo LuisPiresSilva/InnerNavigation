@@ -1,11 +1,10 @@
-package inner.navigation.library.view_pager
+package inner.navigation.view_pager
 
 import androidx.annotation.IntDef
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
-import inner.navigation.library.NavigationalFragment
-import timber.log.Timber
+import inner.navigation.NavigationalFragment
 import java.lang.annotation.Retention
 import java.lang.annotation.RetentionPolicy
 
