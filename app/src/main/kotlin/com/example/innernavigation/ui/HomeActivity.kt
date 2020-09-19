@@ -59,17 +59,17 @@ class HomeActivity : AppCompatActivity() {
     private val onNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.navigation_home1 ->{
-//                dataBinding.viewPager.currentItem = 0
+                dataBinding.viewPager.currentItem = 0
 
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_home2 -> {
-//                dataBinding.viewPager.currentItem = 1
+                dataBinding.viewPager.currentItem = 1
 
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_home3 -> {
-//                dataBinding.viewPager.currentItem = 2
+                dataBinding.viewPager.currentItem = 2
 
                 return@OnNavigationItemSelectedListener true
             }
